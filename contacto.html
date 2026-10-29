@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap">
+</head>
+
+<body>
+    <header class="sticky top-0 left-0 right-0 z-50 bg-white border-b border-gray-200 shadow-sm">
+
+        <div class="flex items-center justify-between h-20 w-full px-6">
+
+            <!-- Bloque de logos -->
+            <div class="flex items-center gap-8">
+                <a href="#inicio" class="block">
+                    <img src="img/capa_verde.png" alt="Capa verde"
+                        class="h-20 object-cover m-0 p-0 absolute left-0 top-0">
+                    <!-- pegado a la izq-->
+                </a>
+                <div class="ml-24 flex items-center gap-6"> <!--flex para que quede centrado solo-->
+                    <a href="#inicio"><img src="img/adaptaclima.png" alt="Logo AdaptaClima" class="h-16"></a>
+                    <!-- poner clase solamente para altura (tamaño)-->
+                    <a href="#inicio"><img src="img/diputacion.png" alt="Logo Diputación de Badajoz" class="h-16"></a>
+                </div>
+            </div>
+
+            <!-- Menú navegación con enlaces-->
+            <nav class="flex items-center gap-3 text-xs font-light text-gray-500">
+                <!--hover para pasar el ratón y cambiar color-->
+                <!--todo enlaces para luego coger y poner las direcciones con js-->
+                <a href="inicio.html" class="hover:text-verde">Inicio</a>
+                <span class="text-gray-500">|</span>
+                <a href="presentacion.html" class="hover:text-verde">Presentación</a>
+                <span class="text-gray-500">|</span>
+                <a href="#actividades" class="hover:text-verde">Actividades</a>
+                <span class="text-gray-500">|</span>
+                <a href="#participacion" class="hover:text-verde">Participación</a>
+                <span class="text-gray-500">|</span>
+                <a href="#actualidad" class="hover:text-verde">Actualidad</a>
+                <span class="text-gray-500">|</span>
+                <a href="#agenda" class="hover:text-verde">Agenda/Calendario</a>
+                <span class="text-gray-500">|</span>
+                <a href="#recursos" class="hover:text-verde">Recursos</a>
+                <span class="text-gray-500">|</span>
+                <a href="contacto.html" class="hover:text-verde">Contacto</a>
+                <!--todo grey-500 mantener color-->
+            </nav>
+
+        </div>
+    </header>
+    <!--Section con la imagen y el cículo con el nombre de la seccion-->
+    <section id="inicio" class="relative w-3/4 mx-auto aspect-[16/7] overflow-hidden mb-4">
+        <img src="img/pueblo.jpg" alt="Pueblo" class="absolute inset-0 w-full h-full object-cover">
+        <div
+            class="flex items-center justify-center absolute left-[10%] top-1/2 -translate-y-1/2 w-[25%] aspect-square bg-verde/60 rounded-full">
+            <p class="text-white text-center text-4xl font-semibold leading-relaxed">
+                Contacto
+            </p>
+        </div>
+
+</body>
+
+</html>
